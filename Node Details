@@ -1,0 +1,49 @@
+Client and Server: 
+Client and the Server are bare metal PC's that has NDN installed on it. Following steps helps you install NDN on the client and 
+the Server:
+
+      sudo apt-get update
+      sudo apt-get install software-properties-common
+      sudo add-apt-repository ppa:named-data/ppa
+      sudo apt-get update
+      sudo apt-get install nfd
+      sudo apt-get install ndn-cxx
+      sudo apt-get install ndn-cxx-dev
+      sudo apt-get install ndn-tools
+      nfd-start
+      echo done
+
+    ##NDN tools (ndnping, ndnpingserver etc):
+
+      sudo apt-get install git
+      git clone https://github.com/named-data/ndn-tools.git
+      cd ndn-tools
+      sudo apt-get install g++
+      sudo apt-get install libpcap-dev
+      ./waf configure
+      ./waf
+      sudo ./waf install
+      echo done
+     
+    ##NDN Traffic generator installation:
+      sudo apt-get install git
+      git clone https://github.com/named-data/ndn-traffic-generator.git 
+      cd ndn-traffic-generator
+      ./waf configure
+      ./waf
+      sudo ./waf install
+
+Router 1: Is a Bare Metal PC. The following snapshot image, when used, will provide you with the Virsh installations. To continue 
+with the step refer to the 'the setup file' or more details
+    
+        https://www.clemson.cloudlab.us/image_metadata.php?uuid=ab0bde21-d5d2-11e6-a9e9-000099989701
+
+Router 3: Is a Bare Metal PC. The following snapshot image, when used, will provide you with the Virsh installations. To continue 
+with the step refer to the 'the setup file' or more details
+
+        https://www.clemson.cloudlab.us/image_metadata.php?uuid=d772664d-d434-11e6-a9e9-000099989701
+
+Router 4: Is a Bare Metal PC. The following snapshot image, when used, will provide you with the Virsh installations. To continue 
+with the step refer to the 'the setup file' or more details
+
+        https://www.clemson.cloudlab.us/image_metadata.php?uuid=547caaa1-d5cc-11e6-a9e9-000099989701
