@@ -36,22 +36,22 @@ the Server:
 Router 1: Is a Bare Metal PC. The following snapshot image, when used, will provide you with the Virsh installations. To continue 
 with the step refer to the 'the setup file' or more details
     
-        https://www.clemson.cloudlab.us/image_metadata.php?uuid=ab0bde21-d5d2-11e6-a9e9-000099989701
+        https://www.clemson.cloudlab.us/image_metadata.php?uuid=ab0bde21-d5d2-11e6-a9e9-***********
         
 Router 2: Is a Bare Metal PC. The following snapshot image, when used, will provide you with the Virsh installations. To continue 
 with the step refer to the 'the setup file' or more details
 
-        https://www.clemson.cloudlab.us/image_metadata.php?uuid=d772664d-d434-11e6-a9e9-000099989701
+        https://www.clemson.cloudlab.us/image_metadata.php?uuid=d772664d-d434-11e6-a9e9-************
 
 Router 3: Is a Bare Metal PC. The following snapshot image, when used, will provide you with the Virsh installations. To continue 
 with the step refer to the 'the setup file' or more details
 
-        https://www.clemson.cloudlab.us/image_metadata.php?uuid=d772664d-d434-11e6-a9e9-000099989701
+        https://www.clemson.cloudlab.us/image_metadata.php?uuid=d772664d-d434-11e6-a9e9-************
 
 Router 4: Is a Bare Metal PC. The following snapshot image, when used, will provide you with the Virsh installations. To continue 
 with the step refer to the 'the setup file' or more details
 
-        https://www.clemson.cloudlab.us/image_metadata.php?uuid=547caaa1-d5cc-11e6-a9e9-000099989701
+        https://www.clemson.cloudlab.us/image_metadata.php?uuid=547caaa1-d5cc-11e6-a9e9-*************
         
 SDN-C: Is a Bare Metal PC having set the publically routeable IP set while reserving the PC. Install RYU on this PC by following the
 below steps:
