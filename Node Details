@@ -37,6 +37,11 @@ Router 1: Is a Bare Metal PC. The following snapshot image, when used, will prov
 with the step refer to the 'the setup file' or more details
     
         https://www.clemson.cloudlab.us/image_metadata.php?uuid=ab0bde21-d5d2-11e6-a9e9-000099989701
+        
+Router 2: Is a Bare Metal PC. The following snapshot image, when used, will provide you with the Virsh installations. To continue 
+with the step refer to the 'the setup file' or more details
+
+        https://www.clemson.cloudlab.us/image_metadata.php?uuid=d772664d-d434-11e6-a9e9-000099989701
 
 Router 3: Is a Bare Metal PC. The following snapshot image, when used, will provide you with the Virsh installations. To continue 
 with the step refer to the 'the setup file' or more details
@@ -47,3 +52,14 @@ Router 4: Is a Bare Metal PC. The following snapshot image, when used, will prov
 with the step refer to the 'the setup file' or more details
 
         https://www.clemson.cloudlab.us/image_metadata.php?uuid=547caaa1-d5cc-11e6-a9e9-000099989701
+        
+SDN-C: Is a Bare Metal PC having set the publically routeable IP set while reserving the PC. Install RYU on this PC by following the
+below steps:
+
+        - $sudo apt-get install --yes libxml2-dev libxslt1-dev python-dev python-eventlet python-routes python-webob python-paramiko python-setuptools python-pip
+        - $git clone git://github.com/osrg/ryu.git
+        - $cd ryu
+        - $ryu $python ./setup.py install
+        - $wget https://bootstrap.pypa.io/ez_setup.py -O - | sudo python
+        - $sudo pip install oslo.config
+        
