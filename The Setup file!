@@ -47,5 +47,7 @@ Step 2. Configuring the VM's
             - go to edit > Connection details > Network Interfaces > 'add sign' > select 'bridge' > Name 'virbr0' > Finish
         2.e.3  For the VM you want this bridge to be a part of:
             - Select ipVM > 'open' > 'Details' > Hardware ( NIC ) specify shared device name as the bridge name 
-              
+            - go back to edit > Connection details > Network Interfaces > Under Slave interface you should see a new virtual interface(vnet*) present.
+        *Note: On the host to see the bridge - ifconfig virbr0 up
+                                                
         
