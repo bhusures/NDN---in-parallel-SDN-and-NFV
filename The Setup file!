@@ -10,6 +10,7 @@ Step 2. Configuring the VM's
     2.b To start virsh:
         - sudo /etc/init.d/
         - sudo apt-get install libvirt-bin
+        - sudo apt-get install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils
         - virsh connect qemu:///system
         - virsh list
 
