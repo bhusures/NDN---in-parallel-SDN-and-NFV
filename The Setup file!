@@ -2,6 +2,9 @@ Step 1. The qcow images for NDN and IP can be obtained by:
 
     wget 'http://emmy10.casa.umass.edu/CNP/ipVM.qcow2' - IP VM image
     wget 'http://emmy10.casa.umass.edu/CNP/ndnVM.qcow2' - NDN VM image
+    
+    wget 'http://emmy10.casa.umass.edu/CNP/ipVM.xml' - IP XML (edit the XML file to the number of interfaces you need)
+    wget 'http://emmy10.casa.umass.edu/CNP/ndnVM.xml' - NDN XML
 
 Step 2. Configuring the VM's 
 
