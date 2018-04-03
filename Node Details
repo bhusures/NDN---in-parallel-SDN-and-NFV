@@ -63,3 +63,4 @@ below steps:
         - $wget https://bootstrap.pypa.io/ez_setup.py -O - | sudo python
         - $sudo pip install oslo.config
         
+  CloudLab profile presented for defense: wget 'http://emmy10.casa.umass.edu/CNP/profile.xml' 
