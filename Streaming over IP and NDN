@@ -1,0 +1,16 @@
+#### Streaming over NDN ####
+On the client:
+wget 'http://emmy10.casa.umass.edu/CNP/dash_client_udp_bhushan.py'
+python dist/client/dash_client_udp_bhushan.py -m /www-itec.uni-klu.ac.at/ftp/datasets/DASHDataset2014/BigBuckBunny/2sec/BigBuckBunny_2s.mpd -p bola
+
+On the server:
+$users/bsures0/ndnperf/c++/server# ./ndnperf -p ndn:/edu/umass -c 1500
+$users/bsures0/ndnperf/c++/server# python python livestream_timer.py
+
+#### Streaming over IP ####
+On the client:
+wget 'http://emmy10.casa.umass.edu/CNP/dash_client.py'
+python dist/client/dash_client.py -m http://10.10.1.50/www-itec.uni-klu.ac.at/ftp/datasets/DASHDataset2014/BigBuckBunny/2sec/BigBuckBunny_2s.mpd -p bola
+
+On the server:
+$/var/www/html# python python livestream_timer.py
