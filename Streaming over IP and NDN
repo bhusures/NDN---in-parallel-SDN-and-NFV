@@ -5,7 +5,7 @@ python dist/client/dash_client_udp_bhushan.py -m /www-itec.uni-klu.ac.at/ftp/dat
 
 On the server:
 $users/bsures0/ndnperf/c++/server# ./ndnperf -p ndn:/edu/umass -c 1500
-$users/bsures0/ndnperf/c++/server# python python livestream_timer.py
+$users/bsures0/ndnperf/c++/server# python livestream_timer.py
 
 #### Streaming over IP ####
 On the client:
