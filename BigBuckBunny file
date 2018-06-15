@@ -1,1 +1,2 @@
 wget -r --no-parent --reject \"index.html*\" http://www-itec.uni-klu.ac.at/ftp/datasets/DASHDataset2014/BigBuckBunny/2sec/
+wget 'http://emmy10.casa.umass.edu/CNP/BigBuckBunny_2s.mpd
